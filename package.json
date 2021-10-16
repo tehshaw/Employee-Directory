@@ -1,0 +1,26 @@
+{
+  "name": "employee-directory",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Create a directory of employees on a software engineering team",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tehshaw/Employee-Directory.git"
+  },
+  "author": "Mike Henshaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tehshaw/Employee-Directory/issues"
+  },
+  "homepage": "https://github.com/tehshaw/Employee-Directory#readme",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
