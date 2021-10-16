@@ -1,11 +1,10 @@
 {
   "name": "employee-directory",
   "version": "1.0.0",
-  "type": "module",
   "description": "Create a directory of employees on a software engineering team",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
