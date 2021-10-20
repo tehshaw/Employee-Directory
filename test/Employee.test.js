@@ -8,15 +8,15 @@ describe("Employee class", ()=>{
     })
 
     it("Employee id can be returned after constuction", () => {
-        expect(new Employee("Dave", "42", "email").id()).toBe("42")
+        expect(new Employee("Dave", "42", "email").getID()).toBe("42")
     })
 
     it("Employee email can be returned after constuction", () => {
-        expect(new Employee("Dave", "test@gmail.com", "email").email()).toBe("test@gmail.com")
+        expect(new Employee("Dave", "42" , "test@gmail.com").getEmail()).toBe("test@gmail.com")
     })
 
     describe("getRole", () => {
-        it("getRole will return 'Employee'", () => {
+        it("getRole will return 'Employee' to match class name", () => {
             expect(new Employee("name", "id", "email").getRole()).toBe("Employee")
         });
     })
